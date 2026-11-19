@@ -184,13 +184,3 @@ This is a batch CSV demonstration, not a high-volume distributed system. It does
 5. Add GitHub Actions for linting and tests.
 6. Add a cloud object-storage landing zone.
 7. Add Kafka/Spark only if the use case requires streaming or distributed processing.
-
-## Suggested CV entry (only after you have run and understood it)
-
-**Retail Sales ETL Pipeline | Python, Apache Airflow, PostgreSQL, SQL, pytest**
-- Built a scheduled batch ETL workflow that extracts retail transactions from CSV, validates and transforms records with Python/Pandas, and loads results into PostgreSQL.
-- Orchestrated extraction, transformation and loading with Apache Airflow, including task dependencies and retry configuration.
-- Implemented data-quality checks and idempotent database loading using a transaction key and PostgreSQL upsert.
-- Wrote pytest unit tests for transformation and validation logic and SQL queries for sales analysis.
-
-Be prepared to explain the design choices and the project's limitations honestly.
