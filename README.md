@@ -4,7 +4,6 @@
 
 An end-to-end batch data pipeline that extracts retail sales records from CSV, validates and transforms them with Python/Pandas, and loads the results into PostgreSQL. Apache Airflow orchestrates the workflow, while pytest tests the transformation and validation logic.
 
-> This is a learning/portfolio project. Run it locally and understand each component before describing it as your own work in an interview. Do not claim production deployment or cloud experience unless you have actually done that separately.
 
 ## Architecture
 
